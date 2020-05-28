@@ -5,7 +5,7 @@ kubectl get all --namespace hotel
 kubectl get ingress --namespace hotel
 kubectl describe ing hotel-ingress --namespace hotel
 kubectl get pods -o wide --namespace hotel
-kubectl apply -f cage-ingress.yml [cafe-new.yml]
+kubectl apply -f cafe-ingress.yml [cafe-new.yml]
 kubectl get ns
 kubectl get all --namespace cafe
 kubectl get ing --namespace cafe
